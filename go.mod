@@ -1,5 +1,8 @@
-module github.com/aquasecurity/go-powershell
+module github.com/AmirZandi13/go-powershell
 
-go 1.12
+go 1.20
 
-require github.com/juju/errors v0.0.0-20190806202954-0232dcc7464d
+require (
+	github.com/aquasecurity/go-powershell v0.0.0-20190807165005-070591d67847
+	github.com/juju/errors v1.0.0
+)
